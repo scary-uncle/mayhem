@@ -1,0 +1,60 @@
+
+:root{
+    
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin-top: top
+    width: 100%;
+    height: 7%;
+    background-color: rgb(159, 3, 231);
+    
+}
+* {box-sizing: border-box;} 
+form {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 75px;
+  height: 42px;
+  border: none;
+  background: #0400ff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+a {
+  display: block;
+}
+
+.bit {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: .25rem;
+}
